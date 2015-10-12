@@ -1,2 +1,2 @@
 # 210CT
-Programming
+Python Programming
