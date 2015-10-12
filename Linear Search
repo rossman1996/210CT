@@ -1,0 +1,15 @@
+def linearSearch(theList,search):
+    i = 0
+    while i <= range(len(theList)):
+        if i == len(theList):
+            print "Search Critea Failed"
+        if theList[i]==search:
+            return i
+        else:
+            i=i+1
+        
+
+theList = 0,1,3,2,32,52
+search = 3
+
+print "Search at position",linearSearch(theList,search)
