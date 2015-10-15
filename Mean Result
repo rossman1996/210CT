@@ -1,0 +1,10 @@
+aList = 1,1,1,1
+mean = 0
+i=0
+
+while True:
+    mean = aList[i] + mean
+    i = i+1
+    if i >= len(aList):
+        print mean/len(aList)
+        break
