@@ -1,0 +1,24 @@
+def tree():
+    User = input ("input")
+    Star="*"
+    Forloop1=int(User)/2
+    Number=" "
+    ForLoop2=Forloop1-1
+    StumpNumber=5
+    for z in range (0,int(Forloop1)):
+        Number=Number+" "
+        StumpNumber=Number
+        if len(Number)==int(ForLoop2):
+            StumpNumber=StumpNumber[:-1]
+            print (StumpNumber[:-1],'',"0")
+        
+    for y in range (0,int(Forloop1)):
+        print (Number,Star)
+        Star="*"+Star+"*"
+        Number=Number[:-1]
+        
+    for z in range (0,int(Forloop1)):
+        print (StumpNumber[:-1],"***")
+
+    tree()
+tree()
