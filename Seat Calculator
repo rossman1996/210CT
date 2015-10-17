@@ -1,0 +1,9 @@
+rows = None
+columns = None
+seats = None
+
+
+rows = input("Number of Rows:")
+columns = 8
+seats = rows * columns
+print(str("Seats: ") + str(seats))
